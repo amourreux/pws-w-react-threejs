@@ -3,9 +3,8 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { Trail, Float, Line, Sphere, Stars, useDepthBuffer, Points, PointMaterial, } from '@react-three/drei';
 import { EffectComposer, Bloom } from '@react-three/postprocessing';
 import { OrbitControls } from "@react-three/drei";
-import * as THREE from 'three'
 import * as random from "maath/random/dist/maath-random.esm";
-
+import { Vector3, EllipseCurve } from 'three';
 
 import CanvasLoader from '../Loader';
 
@@ -60,7 +59,7 @@ const StarsManuel = (props) => {
   };
 
 function Intro() {
-    const [vec] = useState(() => new THREE.Vector3())
+    const [vec] = useState(() => new Vector3())
     return useFrame((state) => {
       state.camera.position.lerp(vec.set(state.mouse.x * 5, 3 + state.mouse.y * 2, 14), 0.05)
       state.camera.lookAt(0, 0, 0)
@@ -68,7 +67,7 @@ function Intro() {
   }
 
 const Atom = (props) => {
-    const points = useMemo(() => new THREE.EllipseCurve(0, 0, 3, 1.15, 0, 2 * Math.PI, false, 0).getPoints(100), [])
+    const points = useMemo(() => new EllipseCurve(0, 0, 3, 1.15, 0, 2 * Math.PI, false, 0).getPoints(100), [])
     const depthBuffer = useDepthBuffer({ frames: 1 })
 
     return (
