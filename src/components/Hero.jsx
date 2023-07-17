@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-import { AtomCanvas, ComputersCanvas, EarthCanvas } from "./canvas";
+import { AtomCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -15,6 +14,7 @@ const Hero = () => {
         </div>
 
         <div>
+
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#762368]'>Emre</span>
           </h1>
