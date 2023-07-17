@@ -281,7 +281,7 @@ const socials = [
   {
     name: "Strava",
     icon: "fa-bicycle",
-    link: "https://www.linkedin.com/in/mehmet-emre-portakal-5a986285/"
+    link: "https://www.strava.com/athletes/mehmetemre"
   },
 ];
 
