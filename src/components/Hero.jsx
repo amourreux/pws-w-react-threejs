@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { AtomCanvas } from "./canvas";
+import { AtomCanvas, ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -12,9 +12,7 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
-
         <div>
-
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#762368]'>Emre</span>
           </h1>
