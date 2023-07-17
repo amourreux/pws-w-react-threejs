@@ -256,7 +256,7 @@ const socials = [
   {
     name: "Instagram",
     icon: "fa-instagram",
-    link: "ttps://instagram.com/mehmetewre/"
+    link: "https://instagram.com/mehmetewre/"
   },
   {
     name: "Facebook",
