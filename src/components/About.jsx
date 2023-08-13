@@ -1,16 +1,16 @@
-import React from "react";
-import Tilt from "react-tilt";
-import { motion } from "framer-motion";
+import React from 'react';
+import Tilt from 'react-tilt';
+import { motion } from 'framer-motion';
 
-import { styles } from "../styles";
-import { services } from "../constants";
-import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
+import { styles } from '../styles';
+import { services } from '../constants';
+import { SectionWrapper } from '../hoc';
+import { fadeIn, textVariant } from '../utils/motion';
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
@@ -44,14 +44,16 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+        variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-            I am proficient in working with a wide range of technologies,
-             including both front-end and back-end development as well as mobile development.
-              Specifically, this means that I am experienced in working with databases, web services, frontend and backend frameworks,
-               and various other aspects that bridge the gap between them. Moreover, I have even ventured into the realms of 
-               3D mobile game development and 3D model designing, showcasing my diverse skill set in these areas.
+        I am proficient in working with a wide range of technologies, including
+        both front-end and back-end development as well as mobile development.
+        Specifically, this means that I am experienced in working with
+        databases, web services, frontend and backend frameworks, and various
+        other aspects that bridge the gap between them. Moreover, I have even
+        ventured into the realms of 3D mobile game development and 3D model
+        designing, showcasing my diverse skill set in these areas.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
@@ -63,4 +65,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, "about");
+export default SectionWrapper(About, 'about');
