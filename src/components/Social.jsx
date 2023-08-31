@@ -4,6 +4,7 @@ import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { fadeIn, textVariant } from '../utils/motion';
 import { socials } from '../constants';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const SocialCard = ({ index, link, name, icon }) => (
   <motion.div
@@ -18,7 +19,7 @@ const SocialCard = ({ index, link, name, icon }) => (
             <span className='blue-text-gradient'>@</span> {name}
           </p>
         </div>
-        <i className={`fa fa-lg ${icon}`}></i>
+        <FontAwesomeIcon size='2x' icon={icon} />
       </div>
     </div>
   </motion.div>

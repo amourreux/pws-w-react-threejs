@@ -14,6 +14,7 @@ import {
   project_cowmon,
   project_icon,
 } from '../assets';
+import { faGithub, faInstagram, faFacebook, faStackOverflow, faStrava, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export const navLinks = [
   {
@@ -158,32 +159,32 @@ const experiences = [
 const socials = [
   {
     name: 'Instagram',
-    icon: 'fa-instagram',
+    icon: faInstagram,
     link: 'https://instagram.com/mehmetewre/',
   },
   {
     name: 'Facebook',
-    icon: 'fa-facebook',
+    icon: faFacebook,
     link: 'https://facebook.com/mehmetemrep',
   },
   {
     name: 'Github',
-    icon: 'fa-github',
+    icon: faGithub,
     link: 'https://github.com/amourreux',
   },
   {
     name: 'Stackoverflow',
-    icon: 'fa-stack-overflow',
+    icon: faStackOverflow,
     link: 'http://stackoverflow.com/users/1187845/amourreux',
   },
   {
     name: 'Linkedin',
-    icon: 'fa-linkedin-square',
+    icon: faLinkedin,
     link: 'https://www.linkedin.com/in/mehmet-emre-portakal-5a986285/',
   },
   {
     name: 'Strava',
-    icon: 'fa-bicycle',
+    icon: faStrava,
     link: 'https://www.strava.com/athletes/mehmetemre',
   },
 ];
