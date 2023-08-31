@@ -28,7 +28,6 @@ const manifestForPlugin = {
   "background_color": "#ffffff"
 }
 
-
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(),VitePWA(manifestForPlugin)],
