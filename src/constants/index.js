@@ -9,10 +9,12 @@ import {
   logo_dva,
   logo_elmas,
   logo_iris,
+  logo_xenon,
   logo_sau,
   project_evital,
   project_cowmon,
   project_icon,
+  project_kws,
 } from '../assets';
 import { faGithub, faInstagram, faFacebook, faStackOverflow, faStrava, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
@@ -52,8 +54,20 @@ const services = [
 
 const experiences = [
   {
+    title: 'Senior Staff Software Engineer',
+    company_name: 'Xenon Smart',
+    icon: logo_xenon,
+    iconBg: '#fff',
+    date: 'August 2023 - February 2024',
+    points: [
+      'technical leadership within their team.',
+      'mentoring junior engineers, providing technical guidance on projects, and helping to set technical direction for the organization.',
+      'deeply involved in technical work. This could include designing and implementing complex systems, writing code, conducting performance analysis, or troubleshooting technical issues.'
+    ],
+  },
+  {
     title: 'External Software Consultant',
-    company_name: 'Serenas Group/GL Events Türkiye',
+    company_name: 'Serenas Group/GL Events Turkey',
     icon: logo_serenas,
     iconBg: '#000',
     date: 'August 2021 - August 2023',
@@ -190,6 +204,27 @@ const socials = [
 ];
 
 const projects = [
+  {
+    name: 'Karagöz ve Hacivat Sahnesi',
+    description:
+      'A mobile application for traditional Shadow Scene Simulator',
+    tags: [
+      {
+        name: 'Unity',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'C#',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'photoshop',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: project_kws,
+    source_code_link: 'https://play.google.com/store/apps/details?id=com.emreportakal.karagozvehacivat.sahne',
+  },
   {
     name: 'evital',
     description:
