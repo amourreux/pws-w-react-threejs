@@ -6,6 +6,7 @@ import { EarthCanvas } from './canvas';
 import { DiamondCanvas} from './canvas'
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
+import MacAirCanvas from './canvas/MacAir';
 
 const Contact = () => {
   const formRef = useRef();
@@ -127,7 +128,7 @@ const Contact = () => {
         variants={slideIn('right', 'tween', 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
-        <DiamondCanvas /> 
+        <MacAirCanvas/>
       </motion.div>
     </div>
   );
