@@ -207,19 +207,16 @@
   }
 }
 
-
 .mac-content {
   width: 334px;
   height: 216px;
   background: #f0f0f0;
   border-radius: 3px;
-  overflow-y: auto;
+  overflow: hidden;
   padding: 0;
 }
 
-
 .mac-wrapper {
-  padding: 10px;
   width: 668px;
   height: 432px;
   transform: scale(0.5);

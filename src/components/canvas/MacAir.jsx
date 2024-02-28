@@ -26,9 +26,9 @@ function MacAir(props) {
           <mesh material={materials['matte.001']} geometry={nodes['Cube008_1'].geometry} />
           <mesh geometry={nodes['Cube008_2'].geometry}>
             {/* Drei's HTML component can "hide behind" canvas geometry */}
-            <Html className="mac-content" rotation-x={-Math.PI / 2} position={[-0.5, 0.04, 0.2]} transform occlude>
+            <Html className="mac-content" scale={[1.05,1.05,1.05]} rotation-x={-Math.PI / 2 } position={[0.12, 0.04, 0.25]} transform occlude>
               <div className="mac-wrapper" onPointerDown={(e) => e.stopPropagation()}>
-                <iframe width={668} height={432} src="https://emreportakal.com/" ></iframe>
+                <iframe width={668} height={432}  src="https://emreportakal.com" ></iframe>
               </div>
             </Html>
           </mesh>
@@ -47,17 +47,18 @@ function MacAir(props) {
 const MacAirCanvas = () => {
   return (
     <Canvas
-      frameloop='demand'
+      frameloop='always'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
       camera={{ position: [0, 12, 12], fov: 55 }}
     >
     <pointLight position={[10, 10, 10]} intensity={1.5} />
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enablePan={false} enableZoom={false} minPolarAngle={Math.PI / 2.2} maxPolarAngle={Math.PI / 2.2} />
-          <MacAir />
+           <MacAir />
+
         <Preload all />
       </Suspense>
+      <OrbitControls enablePan={false} enableZoom={false} minPolarAngle={Math.PI / 2.2} maxPolarAngle={Math.PI / 2.2} />
     </Canvas>
   );
 };
