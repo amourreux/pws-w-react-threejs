@@ -10,6 +10,7 @@ import {
   logo_elmas,
   logo_iris,
   logo_xenon,
+  logo_commencis,
   logo_sau,
   project_evital,
   project_cowmon,
@@ -53,6 +54,18 @@ const services = [
 ];
 
 const experiences = [
+  {
+    title: 'Senior  Software Engineer',
+    company_name: 'Commencis',
+    icon: logo_commencis,
+    iconBg: '#fff',
+    date: 'March 2024 - Present',
+    points: [
+      "Metlife Gulf",
+      'mentoring junior engineers, providing technical guidance on projects, and helping to set technical direction for the organization.',
+      'deeply involved in technical work. This could include designing and implementing complex systems, writing code, conducting performance analysis, or troubleshooting technical issues.'
+    ],
+  },
   {
     title: 'Senior Staff Software Engineer',
     company_name: 'Xenon Smart',
