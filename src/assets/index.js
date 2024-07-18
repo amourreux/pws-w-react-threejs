@@ -15,6 +15,7 @@ import logo_elmas from "./myexp/elmas.jpg";
 import logo_iris from "./myexp/iris.png";
 import logo_sau from "./myexp/sau.jpg";
 import logo_xenon from "./myexp/duman.jpg";
+import logo_commencis from "./myexp/commencis.png"
 
 import project_evital from "./projects/evital.png";
 import project_icon from "./projects/icon.png";
@@ -31,6 +32,7 @@ export {
   logo_iris,
   logo_sau,
   logo_xenon,
+  logo_commencis,
   project_cowmon,
   project_icon,
   project_evital,
