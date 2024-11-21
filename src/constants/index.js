@@ -48,22 +48,22 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Game Developer Wannabe',
+    title: 'Game Developer',
     icon: creator,
   },
 ];
 
 const experiences = [
   {
-    title: 'Senior  Software Engineer',
+    title: 'Senior Full Stack Engineer',
     company_name: 'Commencis',
     icon: logo_commencis,
     iconBg: '#fff',
     date: 'March 2024 - Present',
     points: [
-      "Metlife Gulf",
-      'mentoring junior engineers, providing technical guidance on projects, and helping to set technical direction for the organization.',
-      'deeply involved in technical work. This could include designing and implementing complex systems, writing code, conducting performance analysis, or troubleshooting technical issues.'
+      "Riyad Bank - Mobile Application",
+      "Metlife Gulf - Mobil Application",
+      "Commencis AI Assitant - Web Application & Tools"
     ],
   },
   {
