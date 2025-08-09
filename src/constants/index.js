@@ -17,7 +17,7 @@ import {
   project_icon,
   project_kws,
 } from '../assets';
-import { faGithub, faInstagram, faFacebook, faStackOverflow, faStrava, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faInstagram, faFacebook, faStackOverflow, faStrava, faLinkedin, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 export const navLinks = [
   {
@@ -187,7 +187,7 @@ const socials = [
   {
     name: 'Instagram',
     icon: faInstagram,
-    link: 'https://instagram.com/mehmetewre/',
+    link: 'https://instagram.com/emreulf/',
   },
   {
     name: 'Facebook',
@@ -214,6 +214,11 @@ const socials = [
     icon: faStrava,
     link: 'https://www.strava.com/athletes/mehmetemre',
   },
+    {
+    name: 'Youtube',
+    icon: faYoutube,
+    link: 'https://www.youtube.com/@myhm',
+  }
 ];
 
 const projects = [
