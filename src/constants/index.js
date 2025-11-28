@@ -62,12 +62,12 @@ const experiences = [
     date: 'March 2024 - Present',
     points: [
       "Riyad Bank - Mobile Application",
-      "Metlife Gulf - Mobil Application",
+      "Metlife Gulf - Mobile Application",
       "Commencis AI Assitant - Web Application & Tools"
     ],
   },
   {
-    title: 'Senior Staff Software Engineer',
+    title: 'Senior Full Stack Engineer',
     company_name: 'Xenon Smart',
     icon: logo_xenon,
     iconBg: '#fff',
@@ -187,7 +187,7 @@ const socials = [
   {
     name: 'Instagram',
     icon: faInstagram,
-    link: 'https://instagram.com/emreulf/',
+    link: 'https://instagram.com/emre.porta/',
   },
   {
     name: 'Facebook',
