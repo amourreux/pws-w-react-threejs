@@ -17,7 +17,7 @@ import {
   project_icon,
   project_kws,
 } from '../assets';
-import { faGithub, faInstagram, faFacebook, faStackOverflow, faStrava, faLinkedin, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faInstagram, faFacebook, faStackOverflow, faStrava, faLinkedin, faYoutube,faGoodreads } from "@fortawesome/free-brands-svg-icons";
 
 export const navLinks = [
   {
