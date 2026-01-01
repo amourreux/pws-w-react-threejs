@@ -187,12 +187,17 @@ const socials = [
   {
     name: 'Instagram',
     icon: faInstagram,
-    link: 'https://instagram.com/emre.porta/',
+    link: 'https://instagram.com/ernre.portakal/',
   },
   {
     name: 'Facebook',
     icon: faFacebook,
     link: 'https://facebook.com/mehmetemrep',
+  },
+  {
+    name: 'Goodreads',
+    icon: faGoodreads,
+    link: 'https://www.goodreads.com/amoureux',
   },
   {
     name: 'Github',
